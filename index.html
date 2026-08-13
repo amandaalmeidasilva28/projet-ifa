@@ -1,0 +1,284 @@
+html.html.<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Robótica Educacional e Acessibilidade Auditiva</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">🤖 RoboAcessível</div>
+
+            <button class="menu-btn" onclick="abrirMenu()">☰</button>
+
+            <ul id="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#robotica">Robótica</a></li>
+                <li><a href="#acessibilidade">Acessibilidade</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INÍCIO -->
+        <section id="inicio" class="hero">
+            <div class="hero-text">
+                <span class="tag">TECNOLOGIA + EDUCAÇÃO + INCLUSÃO</span>
+
+                <h1>
+                    Robótica Educacional e
+                    <span>Acessibilidade Auditiva</span>
+                </h1>
+
+                <p>
+                    A tecnologia pode transformar a educação em um espaço
+                    mais inclusivo, interativo e acessível para todos.
+                </p>
+
+                <div class="botoes">
+                    <a href="#robotica" class="btn">Conheça o projeto</a>
+                    <button class="btn secundario" onclick="aumentarFonte()">
+                        A+ Aumentar texto
+                    </button>
+                </div>
+            </div>
+
+            <div class="robot">
+                <div class="antenna"></div>
+                <div class="head">
+                    <div class="eye"></div>
+                    <div class="eye"></div>
+                </div>
+
+                <div class="body">
+                    <div class="screen">HELLO!</div>
+                    <div class="led"></div>
+                </div>
+
+                <div class="arm left"></div>
+                <div class="arm right"></div>
+            </div>
+        </section>
+
+
+        <!-- ROBÓTICA -->
+        <section id="robotica" class="section">
+            <div class="titulo">
+                <span>01</span>
+                <h2>O que é Robótica Educacional?</h2>
+            </div>
+
+            <div class="conteudo">
+                <div>
+                    <p>
+                        A robótica educacional utiliza robôs, sensores,
+                        programação e componentes eletrônicos como ferramentas
+                        para ajudar os estudantes a aprender.
+                    </p>
+
+                    <p>
+                        Por meio de projetos práticos, os alunos podem
+                        desenvolver criatividade, raciocínio lógico,
+                        colaboração e resolução de problemas.
+                    </p>
+                </div>
+
+                <div class="card destaque">
+                    <div class="icone">🤖</div>
+                    <h3>Aprender fazendo</h3>
+                    <p>
+                        A robótica transforma conceitos teóricos em
+                        experiências práticas e divertidas.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ACESSIBILIDADE -->
+        <section id="acessibilidade" class="section acessibilidade">
+            <div class="titulo">
+                <span>02</span>
+                <h2>Acessibilidade Auditiva</h2>
+            </div>
+
+            <p class="introducao">
+                A acessibilidade auditiva busca garantir que pessoas surdas
+                ou com deficiência auditiva possam participar das atividades
+                educacionais com autonomia.
+            </p>
+
+            <div class="cards">
+
+                <div class="card">
+                    <div class="icone">💡</div>
+                    <h3>Sinais luminosos</h3>
+                    <p>
+                        LEDs podem representar alertas e informações que
+                        normalmente seriam transmitidas por sons.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="icone">📳</div>
+                    <h3>Vibração</h3>
+                    <p>
+                        Motores vibratórios podem transmitir informações
+                        sem depender de sinais sonoros.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="icone">📝</div>
+                    <h3>Comunicação visual</h3>
+                    <p>
+                        Telas e textos permitem apresentar informações de
+                        forma visual e acessível.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- TECNOLOGIAS -->
+        <section id="tecnologias" class="section">
+            <div class="titulo">
+                <span>03</span>
+                <h2>Tecnologias Assistivas</h2>
+            </div>
+
+            <div class="tecnologias">
+
+                <div class="tecnologia">
+                    <div class="numero">01</div>
+                    <h3>LEDs</h3>
+                    <p>
+                        Utilizados para criar alertas visuais e indicar
+                        diferentes estados do robô.
+                    </p>
+                </div>
+
+                <div class="tecnologia">
+                    <div class="numero">02</div>
+                    <h3>Sensores</h3>
+                    <p>
+                        Detectam obstáculos, movimentos e outras informações
+                        do ambiente.
+                    </p>
+                </div>
+
+                <div class="tecnologia">
+                    <div class="numero">03</div>
+                    <h3>Displays</h3>
+                    <p>
+                        Podem apresentar mensagens e informações de maneira
+                        visual.
+                    </p>
+                </div>
+
+                <div class="tecnologia">
+                    <div class="numero">04</div>
+                    <h3>Programação</h3>
+                    <p>
+                        Permite criar comportamentos e respostas para tornar
+                        o robô mais acessível.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- DEMONSTRAÇÃO -->
+        <section class="demo">
+            <div>
+                <span class="tag">EXPERIÊNCIA INTERATIVA</span>
+
+                <h2>Experimente o Robô Inclusivo</h2>
+
+                <p>
+                    Clique nos botões para simular diferentes formas de
+                    comunicação do robô.
+                </p>
+            </div>
+
+            <div class="robot-demo">
+
+                <div id="luz" class="luz"></div>
+
+                <div id="mensagem" class="display">
+                    Olá! 👋
+                </div>
+
+                <div class="botoes-demo">
+                    <button onclick="mostrarMensagem('Olá! 👋', 'azul')">
+                        👋 Olá
+                    </button>
+
+                    <button onclick="mostrarMensagem('Atenção! ⚠️', 'amarelo')">
+                        ⚠️ Atenção
+                    </button>
+
+                    <button onclick="mostrarMensagem('Muito bem! 🎉', 'verde')">
+                        🎉 Sucesso
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- SOBRE -->
+        <section id="sobre" class="section sobre">
+            <div class="titulo">
+                <span>04</span>
+                <h2>Por que esse projeto é importante?</h2>
+            </div>
+
+            <p>
+                A inclusão digital e tecnológica é fundamental para construir
+                uma educação que considere as diferentes necessidades dos
+                estudantes.
+            </p>
+
+            <p>
+                A combinação entre robótica educacional e acessibilidade
+                auditiva permite desenvolver soluções criativas que utilizam
+                sinais visuais, vibração e textos para facilitar a comunicação
+                e a aprendizagem.
+            </p>
+
+            <div class="frase">
+                <strong>
+                    “Tecnologia para todos, educação para todos.”
+                </strong>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="logo">🤖 RoboAcessível</div>
+
+        <p>
+            Projeto de Robótica Educacional e Acessibilidade Auditiva
+        </p>
+
+        <p>© 2026 - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
